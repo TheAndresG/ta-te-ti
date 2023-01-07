@@ -1,5 +1,11 @@
+import Board from "./Board";
+
 const Game = () => {
-  return <div>¡Ta Te Tí!</div>;
+  const handleClick = () => {};
+  const jumpTo = () => {};
+  const renderMoves = () => {};
+
+  return <Board onClick={handleClick} />;
 };
 
 export default Game;
